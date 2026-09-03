@@ -50,4 +50,4 @@ app.include_router(chat.router, prefix="/api/chat", tags=["chat"])
 
 @app.get("/")
 def root():
-    
+    return {"message": "fx-buddy API가 정상적으로 실행 중입니다.", "docs": "/docs"} 

@@ -21,7 +21,7 @@
 |---|---|
 | 백엔드 API | https://fx-buddy-backend.onrender.com |
 | Swagger UI | https://fx-buddy-backend.onrender.com/docs |
-| 프론트엔드 | (Vercel 배포 예정 — 현재는 로컬 파일로 실행) |
+| 프론트엔드 | https://fx-buddy-frontend.vercel.app |
 
 > 참고: Render 무료 요금제는 일정 시간 요청이 없으면 서버가 슬립 상태가 되어, 첫 요청 시 응답까지 최대 50초 정도 걸릴 수 있습니다.
 
@@ -104,7 +104,6 @@ FastAPI로 라우터(data, conversations, chat)와 서비스(firestore_service, 
 
 ## 향후 개선 사항
 
-- 프론트엔드 Vercel 배포
 - Gemini API 할당량 관리 방안 검토 (API 키 교체 또는 유료 전환)
 - 서비스 안정성을 위한 에러 핸들링 보강
 - 제출용 스크린샷 첨부

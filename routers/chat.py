@@ -48,7 +48,15 @@ def chat(req: ChatRequest):
             messages_history = conv_doc.to_dict().get("messages", [])
 
     # 3. GPT 호출
-    ai_reply = ask_gemini(system_prompt, messages_history, req.message)
+    from fastapi import HTTPException
+
+    try:
+        ai_reply = ask_gemini(system_prompt, messages_history, req.message)
+    except Exception as e:
+        raise HTTPException(
+            status_code=503,
+            detail="AI 응답 생성 중 일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요."
+    )
 
     # 4. 대화 자동 저장
     new_messages = messages_history + [

@@ -137,15 +137,18 @@ FastAPI로 라우터(data, conversations, chat)와 서비스(firestore_service, 
 
 **데이터 요약이 보이는 채팅 화면 (질문 + 답변)**
 
-*(스크린샷 삽입)*
+<img width="1909" height="1070" alt="chat-with-summary" src="https://github.com/user-attachments/assets/9e41b184-5b87-4768-aae8-07710a18fa1a" />
+
 
 **데이터 관리 화면 (데이터 추가 동작)**
 
-*(스크린샷 삽입)*
+<img width="1915" height="1076" alt="data-management" src="https://github.com/user-attachments/assets/fd19d321-9b4d-479b-98dc-63dcc20aa7cf" />
+
 
 **대화 기록 화면 (불러오기 동작)**
 
-*(스크린샷 삽입)*
+<img width="1916" height="1072" alt="conversation-history" src="https://github.com/user-attachments/assets/337d31af-e982-464d-b6cb-3bdde0717bf5" />
+
 
 ## 향후 개선 사항
 

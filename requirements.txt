@@ -4,3 +4,4 @@ firebase-admin
 google-generativeai
 python-dotenv
 pydantic
+google-api-core>=2.28.0,<3.0.0
